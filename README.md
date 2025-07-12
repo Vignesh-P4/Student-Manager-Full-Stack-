@@ -37,6 +37,8 @@ This project allows users to **add**, **edit**, **delete**, and **view** student
 ![App Screenshot](./screenshot.png)
 ![App Screenshot](./screenshot1.png)
 ![App Screenshot](./screenshot2.png)
+
+
 📁 Project Structure
 
 student-manager-app/
