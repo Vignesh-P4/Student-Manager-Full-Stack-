@@ -52,6 +52,7 @@ student-manager-app/
 cd student-manager-app
 npm install
 npm start
+
 ⚙️ Backend
 
 cd backend
