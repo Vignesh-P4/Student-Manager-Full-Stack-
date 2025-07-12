@@ -12,7 +12,7 @@ function App() {
 
   // Fetch Students
   const fetchStudents = async () => {
-    const res = await axios.get('http://localhost:4000/students');
+    const res = await axios.get('https://student-manager-full-stack.onrender.com/students');
     setStudents(res.data);
   };
 
@@ -28,7 +28,7 @@ function App() {
     }
 
     try {
-      await axios.post('http://localhost:4000/students', { name, age });
+      await axios.post('https://student-manager-full-stack.onrender.com/students', { name, age });
       toast.success("Student added successfully");
       setName('');
       setAge('');
@@ -50,7 +50,7 @@ function App() {
     }
 
     try {
-      await axios.put(`http://localhost:4000/students/${editId}`, { name, age });
+      await axios.put(`https://student-manager-full-stack.onrender.com/students/${editId}`, { name, age });
       toast.success("Student updated");
       setName('');
       setAge('');
@@ -64,7 +64,7 @@ function App() {
   // Delete Student
   const deleteStudent = async (id) => {
     try {
-      await axios.delete(`http://localhost:4000/students/${id}`);
+      await axios.delete(`https://student-manager-full-stack.onrender.com/students/${id}`);
       toast.success("Student deleted");
       fetchStudents();
     } catch (err) {
