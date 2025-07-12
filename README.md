@@ -5,6 +5,13 @@ This project allows users to **add**, **edit**, **delete**, and **view** student
 
 ---
 
+**Live Demo**  
+🌐 Frontend: [https://reliable-donut-5e759c.netlify.app](https://reliable-donut-5e759c.netlify.app)  
+🚀 Backend API: [https://student-manager-full-stack.onrender.com](https://student-manager-full-stack.onrender.com)
+
+A full-stack student management system built with **React**, **Tailwind CSS**, and **Express.js**.
+
+
 ## 🚀 Features
 
 - ✅ Add a student with name and age
